@@ -2,7 +2,7 @@ import express from "express";
 
 import { connectDatabase } from "./config/database.js";
 import { router } from "./config/router.js";
-import { errorHandler } from "./middleware/errorHandler.js";
+import { errorHandler } from "./middleware/error-handler.js";
 
 // Connect to the database
 connectDatabase();
