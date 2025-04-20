@@ -1,0 +1,21 @@
+{
+  "name": "express-backend-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "template",
+    "express"
+  ],
+  "author": "Taner Maddocks",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}
